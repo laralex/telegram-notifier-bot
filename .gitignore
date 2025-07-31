@@ -1,0 +1,9 @@
+*
+!.gitignore
+!README.md
+!bot.py
+!load_globals.py
+!utils.py
+!systemctl_template.service
+!deploy.sh
+!start.sh
