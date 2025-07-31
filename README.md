@@ -4,12 +4,10 @@ Install python and libs:
 ```
 sudo apt update
 sudo apt install python3 python3-pip -y
-/usr/bin/python3 -m pip install python-telegram-bot[job-queue]
+/usr/bin/python3 -m pip install python-telegram-bot[job-queue] telethon
 ```
 
-Save telegram bot token to file `token.txt`
-Save channel id into file `channel_id.txt`
-Save chat id of your user into file `notification_sink_chat_id.txt`, this id can be found by messaging `@userinfobot`
+Edit `config_template.yaml` with your own values and save as file `config.yaml`
 
 ### Test run
 Test run in terminal:

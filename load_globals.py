@@ -1,14 +1,9 @@
 import logging
+import yaml
 
-with open("token.txt") as f:
-    BOT_TOKEN = f.read().strip()
-
-# Your channel username and your Telegram user ID for notifications
-with open("channel_id.txt") as f:
-    CHANNEL_ID = f.read().strip()
-
-with open("notification_sink_chat_id.txt") as f:
-    NOTIFICATION_SINK_CHAT_ID = f.read().strip()
+# Load configuration from a YAML file
+with open("config.yaml", "r") as f:
+    CONFIG = yaml.safe_load(f)
 
 MEMBERS_COUNT = None
 

@@ -1,0 +1,16 @@
+# get it from the bot @bothfather
+bot_token: "1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+# which channel to watch
+channel_name: "@your_channel_username"
+
+# chat where to send notification messages
+# to get chat of your user, message the bot @userinfobot
+notification_chat_id: 123456789
+
+# get telegram api info from "https://my.telegram.org/apps"
+api_id: 24053322
+api_hash: "14056b3ff102b8fe39baf106640c876b"
+
+# get from running "generate_session.py"
+telethon_session: "big_session_string"

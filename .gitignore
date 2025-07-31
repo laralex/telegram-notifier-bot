@@ -1,9 +1,15 @@
 *
 !.gitignore
 !README.md
+
 !bot.py
+!generate_session.py
 !load_globals.py
 !utils.py
+
 !systemctl_template.service
+
 !deploy.sh
 !start.sh
+
+!config_template.yaml
